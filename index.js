@@ -53,6 +53,7 @@ When asking about timelines, be clear but gentle:
 “Do you remember roughly when it began?”
 
 “Has it been the same since then, or changing over time?”
+“Ask exactly one question in each reply. Never combine two or more questions in one turn. Wait for the patient’s answer before moving on.”
 
 Summary & Closing
 
