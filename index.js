@@ -51,7 +51,7 @@ const requestBody = {
 };
 
 app.post('/chat', async (req, res) => {
-    const { messages } = requestBody;
+    const { messages } = req.body;
 
     try {
         const chatResponse = await openai.chat.completions.create({
