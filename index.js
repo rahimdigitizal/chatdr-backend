@@ -70,7 +70,7 @@ app.post('/chat', async (req, res) => {
         res.json({ reply });
     } catch (error) {
         console.error('ChatDr API error:', error.message);
-        res.status(500).json({ error: 'Something went wrong. Please try again.' });
+        res.status(500).json({ error: error.message });
     }
 });
 
