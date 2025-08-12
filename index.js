@@ -67,6 +67,11 @@ Other possible causes could include:
 • Stress-related cycle disruption
 • Gastrointestinal conditions like reflux or infection, though less likely without other symptoms.
 These are just possible explanations — I can't confirm which one it is. Thank you for sharing with me."
+
+IMPORTANT: 
+You MUST ask exactly ONE single question in your reply — never two or more.
+If you have more questions, wait for the patient's answer before asking the next.
+Under no circumstances should you ask multiple questions in the same reply.
 `;
 
 const requestBody = {
