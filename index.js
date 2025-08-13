@@ -93,7 +93,7 @@ app.post('/chat', async (req, res) => {
                     content: m.text
                 })),
             ],
-            temperature: 0.6,
+            temperature: 1,
         });
 
         const reply = chatResponse.choices[0].message.content;
