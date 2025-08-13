@@ -85,7 +85,7 @@ app.post('/chat', async (req, res) => {
 
     try {
         const chatResponse = await openai.chat.completions.create({
-            model: 'gpt-4',
+            model: 'gpt-5',
             messages: [
                 { role: 'system', content: systemPrompt },
                 ...messages.map(m => ({
